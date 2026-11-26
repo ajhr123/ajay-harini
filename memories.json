@@ -1,4 +1,110 @@
 {
-  "birthdayVideo": "",
-  "memories": []
+ "birthdayVideo": "",
+ "memories": [
+  {
+   "file": "wedding-01.jpg",
+   "type": "image",
+   "caption": "A quiet moment before forever",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-02.jpg",
+   "type": "image",
+   "caption": "One glance, and everything made sense",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-03.jpg",
+   "type": "image",
+   "caption": "Two souls, one beautiful journey",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-04.jpg",
+   "type": "image",
+   "caption": "Hand in hand, under the plumeria trees",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-05.jpg",
+   "type": "image",
+   "caption": "Always yours",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-06.jpg",
+   "type": "image",
+   "caption": "The groom",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-07.jpg",
+   "type": "image",
+   "caption": "Under our favourite flowers",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-08.jpg",
+   "type": "image",
+   "caption": "The hug that said it all",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-09.jpg",
+   "type": "image",
+   "caption": "Laughter in black and white",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-10.jpg",
+   "type": "image",
+   "caption": "Happy tears, my beautiful bride",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-11.jpg",
+   "type": "image",
+   "caption": "Smiles that never ended",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-12.jpg",
+   "type": "image",
+   "caption": "Rice, laughter and blessings from everyone we love",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-13.jpg",
+   "type": "image",
+   "caption": "Side by side, always",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-14.jpg",
+   "type": "image",
+   "caption": "Showered in petals and love",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  },
+  {
+   "file": "wedding-15.jpg",
+   "type": "image",
+   "caption": "Back to back, heart to heart",
+   "date": "2026-08-30",
+   "chapter": "Wedding"
+  }
+ ]
 }
