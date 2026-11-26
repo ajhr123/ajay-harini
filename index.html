@@ -215,7 +215,7 @@ $('lbClose').onclick=()=>$('lb').close();
 $('lb').addEventListener('close',()=>{$('lbMedia').innerHTML=''});
 document.addEventListener('keydown',e=>{if(!$('lb').open)return;if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
 fetch('memories.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
-  items=(d.memories||[]).filter(m=>m.file).sort((a,b)=>(b.date||'').localeCompare(a.date||''));render();
+  items=(d.memories||[]).filter(m=>m.file).sort((a,b)=>(b.sort||b.date||'').localeCompare(a.sort||a.date||''));render();
   if(d.birthdayVideo&&Date.now()>=BDAY-12*36e5)$('bdFrame').innerHTML=`<video src="media/${encodeURIComponent(d.birthdayVideo)}" controls playsinline preload="metadata"></video>`;
 }).catch(()=>{$('status').textContent='Memories could not be loaded. Please refresh.'});
 }
