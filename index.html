@@ -134,6 +134,7 @@ input,select,textarea{font:16px Mulish,sans-serif;padding:11px 12px;border:1.5px
     <li><time>25 Dec 2020</time><strong>Us, officially</strong><p>Then years of daily calls between Melbourne and Hyderabad.</p></li>
     <li><time>Jan 2026</time><strong>We chose forever</strong><p>The decision to get married.</p></li>
     <li><time>15 Aug 2026</time><strong>Engaged</strong><p>Malkajgiri, Hyderabad.</p></li>
+    <li><time>Aug 2026</time><strong>Our pre-wedding shoot</strong><p>Waves, rocks and endless laughter by the sea in Vizag.</p></li>
     <li><time>30 Aug 2026</time><strong>Married</strong><p>Our wedding day in Hyderabad.</p></li>
     <li class="next"><time>Next</time><strong>Our first home</strong><p>Together in Melbourne, and the family still to come.</p></li>
   </ol>
@@ -182,7 +183,7 @@ $('chips').addEventListener('click',e=>{const b=e.target.closest('button');if(b)
 window.pick=c=>{chapter=c;drawChips();render()};
 drawChips();
 const src=m=>'media/'+encodeURIComponent(m.file);
-const fmt=d=>{if(!d)return'';const t=new Date(d+'T00:00:00');return isNaN(t)?'':t.toLocaleDateString('en-AU',{day:'numeric',month:'short',year:'numeric'})};
+const fmt=d=>{if(!d)return'';const m=d.length===7;const t=new Date((m?d+'-01':d)+'T00:00:00');return isNaN(t)?'':t.toLocaleDateString('en-AU',m?{month:'long',year:'numeric'}:{day:'numeric',month:'short',year:'numeric'})};
 function render(){
   view=items.filter(m=>chapter==='All'||m.chapter===chapter);
   $('grid').innerHTML=view.map((m,i)=>`<figure class="card">${m.type==='video'
