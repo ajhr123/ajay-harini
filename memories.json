@@ -262,6 +262,34 @@
    "place": "After the wedding",
    "chapter": "Hindu wedding",
    "folder": "Satyanarayana Vratam"
+  },
+  {
+   "file": "buddhist-wedding-01.jpg",
+   "type": "image",
+   "caption": "Two happy faces, one new beginning. Our Buddhist wedding day",
+   "date": "2026-08-15",
+   "chapter": "Buddhist wedding"
+  },
+  {
+   "file": "buddhist-wedding-02.jpg",
+   "type": "image",
+   "caption": "A kiss to seal every promise I made you that day",
+   "date": "2026-08-15",
+   "chapter": "Buddhist wedding"
+  },
+  {
+   "file": "buddhist-wedding-03.jpg",
+   "type": "image",
+   "caption": "The way you look at me makes me want to be a better man every single day",
+   "date": "2026-08-15",
+   "chapter": "Buddhist wedding"
+  },
+  {
+   "file": "buddhist-wedding-04.jpg",
+   "type": "image",
+   "caption": "Our first mirror selfie as husband and wife, and already one of my favourite pictures of us",
+   "date": "2026-08-15",
+   "chapter": "Buddhist wedding"
   }
  ]
 }
