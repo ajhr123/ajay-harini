@@ -153,6 +153,38 @@
    "date": "2026-08",
    "chapter": "Pre-wedding",
    "place": "Vizag"
+  },
+  {
+   "file": "ceremony-01.jpg",
+   "type": "image",
+   "caption": "The moment I placed jeelakarra bellam on your head, I knew we were one forever",
+   "date": "2026-08-30",
+   "chapter": "Wedding",
+   "folder": "Wedding ceremony"
+  },
+  {
+   "file": "ceremony-02.jpg",
+   "type": "image",
+   "caption": "That smile, that touch. This is the face I want to wake up to for the rest of my life",
+   "date": "2026-08-30",
+   "chapter": "Wedding",
+   "folder": "Wedding ceremony"
+  },
+  {
+   "file": "ceremony-03.jpg",
+   "type": "image",
+   "caption": "Surrounded by garlands, family and blessings, and still your smile shone brighter than everything",
+   "date": "2026-08-30",
+   "chapter": "Wedding",
+   "folder": "Wedding ceremony"
+  },
+  {
+   "file": "ceremony-04.jpg",
+   "type": "image",
+   "caption": "Walking towards me with that smile. My heart still skips a beat remembering it",
+   "date": "2026-08-30",
+   "chapter": "Wedding",
+   "folder": "Wedding ceremony"
   }
  ]
 }
